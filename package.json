@@ -36,6 +36,8 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@skeletonlabs/skeleton": "^0.99.5"
+		"@skeletonlabs/skeleton": "^0.99.5",
+		"@supabase/auth-helpers-sveltekit": "^0.8.7",
+		"@supabase/supabase-js": "^2.5.0"
 	}
 }
