@@ -15,7 +15,7 @@
 
 <div class="flex flex-col gap-2 py-4">
 	{#each items as item}
-		<div class="card p-2">
+		<div class="card whitespace-nowrap p-2">
 			{item.name.toUpperCase()}
 			<span class="divider-vertical border-primary-500" />
 			<span class="text-secondary-500"> ${item.price} </span>
